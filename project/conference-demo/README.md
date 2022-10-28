@@ -52,3 +52,7 @@ Install the Data:
 
     docker cp insert_data.sql postgres-demo:/insert_data.sql
     docker exec -it postgres-demo psql -d conference_app -f insert_data.sql -U postgres
+    
+Check the application properties of Spring boot:
+
+    https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
